@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "VKLikes - First Page";
+}
+
+<div class="container">
+    <div class="basic-template">
+        <h1>Second page of likes web app</h1>
+        <p class="lead">Sample project that shows vk like button behaviour</p>
+        <div id="vk_like"></div>
+    </div>
+</div>
+<script type="text/javascript">
+    var page_id = 0001;
+    $(document).ready(function () {
+        VKLikesApp.init();
+        VKLikesApp.addWidget();
+    })
+</script>
